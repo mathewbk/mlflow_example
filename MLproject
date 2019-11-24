@@ -1,0 +1,8 @@
+name: mlflow_example
+conda_env: conda.yaml
+entry_points:
+  main:
+    parameters:
+      maxDepth: string
+      numTrees: string
+    command: "python3 train.py {maxDepth} {numTrees}"

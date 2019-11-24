@@ -1,0 +1,13 @@
+{
+    "num_workers": 4,
+    "spark_version": "6.1.x-scala2.11",
+    "spark_conf": {},
+    "node_type_id": "Standard_DS13_v2",
+    "ssh_public_keys": [],
+    "custom_tags": {},
+    "spark_env_vars": {
+        "PYSPARK_PYTHON": "/databricks/python3/bin/python3"
+    },
+    "spark_env_vars": {},
+    "init_scripts": []
+}
